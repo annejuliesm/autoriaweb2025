@@ -1,63 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Atividade CSS - Aula</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog História</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <style>
-      body {
-        font-family: "Inter";
-        padding: 20px;
-        background: #eee;
-      }
-
-      .card {
-        padding-left: 24px;
-        padding-right: 24px;
-        width: 624px;
-        background: #fff;
-        border-radius: 8px;
-      }
-
-      .card-body {
-        border-left: 1px solid #eee;
-        border-right: 1px solid #eee;
-        padding-top: 24px;
-        padding-bottom: 24px;
-      }
-
-      .footer {
-        padding-left: 24px;
-        padding-right: 24px;
-      }
-
-      h3 {
-        font-size: 32px;
-        font-family: "Archivo";
-      }
-    </style>
-  </head>
-  <body>
-    <div class="card">
-      <div class="card-body">
-        <img src="img/bg.png" alt="" />
-
-        <div class="footer">
-          <h3>Guia para organização e fluxo de trabalho em UI Design</h3>
-          <img src="img/logo-figma.png" alt="" />
-          <p>
-            Dicas práticas e efetivas para ganhar em produtividade e organização
-            em projetos no Figma.
-          </p>
-          <img src="img/logo-boost.png" alt="" />
-        </div>
-      </div>
+<!-- Galeria -->
+<section class="media-section">
+    <div class="section-title">
+        <span>Galeria de fotos</span>
     </div>
-  </body>
+
+    <div class="media-grid">
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+            <p>Carnaval de máscaras em Veneza...</p>
+        </div>
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+            <p>As máscaras deram um tom...</p>
+        </div>
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+            <p>Em Rio há blocos mascarados...</p>
+        </div>
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+            <p>A máscara: símbolo mundial...</p>
+        </div>
+    </div>
+
+    <a class="more-link">mais fotos</a>
+
+    <div class="section-title">
+        <span>Vídeos</span>
+    </div>
+
+    <div class="media-grid">
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+        </div>
+        <div class="media-item video">
+            <img src="https://via.placeholder.com/300x250">
+            <div class="play-btn">▶</div>
+        </div>
+        <div class="media-item">
+            <img src="https://via.placeholder.com/300x250">
+        </div>
+    </div>
+
+    <a class="more-link">mais vídeos</a>
+</section>
+
+<!-- Últimos posts -->
+<section class="posts">
+    <h2>Últimos posts</h2>
+
+    <div class="post">
+        <h3>Filho de Jacinto de Souza Rojão...</h3>
+        <span>Publicado em 05 out 2023 — em Crônicas & Cartas</span>
+    </div>
+
+    <div class="post">
+        <h3>Filho de Jacinto de Souza Rojão...</h3>
+        <span>Publicado em 05 out 2023 — em Crônicas & Cartas</span>
+    </div>
+
+    <div class="post">
+        <h3>Filho de Jacinto de Souza Rojão...</h3>
+        <span>Publicado em 05 out 2023 — em Crônicas & Cartas</span>
+    </div>
+
+    <a class="more-link">Ver todos os artigos</a>
+</section>
+
+
+<!-- Séries -->
+<section class="series">
+    <h2>SÉRIES DE POSTS</h2>
+    <p>Você pode acompanhar as histórias...</p>
+
+    <div class="series-grid">
+        <div class="card">
+            <span>Última publicação — 21-ago-2021</span>
+            <h4>A Escola e a estupidez...</h4>
+        </div>
+        <div class="card">
+            <span>Última publicação — 21-ago-2021</span>
+            <h4>Entrevista com Luiz Alves da Silva</h4>
+        </div>
+        <div class="card">
+            <span>Última publicação — 21-ago-2021</span>
+            <h4>A batalha Almir-Amador</h4>
+        </div>
+        <div class="card">
+            <span>Última publicação — 21-ago-2021</span>
+            <h4>A encefalopatia do professor...</h4>
+        </div>
+    </div>
+
+    <a class="more-link">Acessar todas as coletâneas</a>
+</section>
+
+
+<!-- Rodapé -->
+<footer>
+    <h1>o história</h1>
+    <p>está nos detalhes<br>por Sérgio Trindade</p>
+
+    <ul>
+        <li>O BLOG</li>
+        <li>DOWNLOADS</li>
+        <li>VÍDEOS</li>
+        <li>FOTOS</li>
+    </ul>
+</footer>
+
+</body>
 </html>
